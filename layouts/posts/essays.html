@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ $paginator := .Paginate (where .Pages "Type" "posts") }}
 <article>
-    <h1>{{ .Title }}</h1>
+    <h1 class="section-heading">{{ .Title }}</h1>
     <ul class="posts-list">
         {{ range $index, $element := $paginator.Pages }}
         <li class="posts-list-item">

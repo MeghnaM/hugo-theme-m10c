@@ -2,6 +2,10 @@
   padding: 0;
 }
 
+.section-heading {
+  color: $darkest-color
+}
+
 .posts-list-item {
   list-style: none;
   &:not(:last-child) {
