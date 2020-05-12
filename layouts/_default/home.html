@@ -1,0 +1,7 @@
+{{ define "main" }}
+<article>
+    <!-- <h1>{{ .Title }}</h1> -->
+    <!-- <img class="home-astronaut" src="astronaut.jpg" alt="Photo by NASA on Unsplash" /> -->
+    <img class="home-astronaut" src="{{ .Site.Params.homeImage | default "avatar.jpg" | relURL }}" alt="{{ .Site.Params.homeImageAlt | default "John Doe" }}" />
+</article>
+{{ end }}

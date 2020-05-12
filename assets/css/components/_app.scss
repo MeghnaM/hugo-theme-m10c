@@ -2,6 +2,9 @@
   padding: 2.5em;
   background: $darkest-color;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .app-header-avatar {
@@ -9,6 +12,10 @@
   max-height: 15rem;
   border-radius: 100%;
   border: 0.5rem solid $primary-color;
+}
+
+.home-astronaut {
+  width: 600px;
 }
 
 .app-container {
@@ -36,5 +43,13 @@
   .app-container {
     max-width: 40rem;
     margin-left: 20rem;
+  }
+}
+
+@media (max-width: 940px) {
+  .app-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 }
