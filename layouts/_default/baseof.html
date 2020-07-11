@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
   <head>
-    <link rel="icon" type="image/png" href="{{ .Site.Params.favicon }}" />
+      <!-- <link rel="icon" type="image/png" href="{{ .Site.Params.favicon }}" /> -->
+    <link rel="icon" href="{{ .Site.Params.favicon }}" />
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}</title>
     <meta charset="utf-8" />
     {{ hugo.Generator }}
