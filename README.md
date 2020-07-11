@@ -1,6 +1,6 @@
 # m10c theme
 
-Meghna's edits
+Meghna's edits. Theme submodule.
 
 ## Getting started
 
