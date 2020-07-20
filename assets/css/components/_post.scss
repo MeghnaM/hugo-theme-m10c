@@ -6,10 +6,21 @@
 blockquote {
     margin-bottom: 0;
     margin-top: 0;
+    border-left: 0.4em solid rgba($primary-color, .8);
+    padding-left: 1em;
 
     p {
         margin-bottom: 0;
         margin-top: 0;
+        font-family: Baskerville;
+        font-size: 1.1rem;
+    }
+}
+
+.padded-block-quote {
+    padding-bottom: 10px;
+
+    p {
         font-family: Baskerville;
         font-size: 1.1rem;
     }
